@@ -3,7 +3,7 @@ session_start();
 $_SESSION["tab"] = "Add User";
 
 if($_SESSION["login"] != 1)
-  echo '<h2 txtcolor="red">Authentication Error!!!</h2>';
+  echo '<h2 txtcolor="red">Authentication_Error!!</h2>';
 else{
   include_once('header.php');
 
